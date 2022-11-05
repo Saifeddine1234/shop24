@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<div style="background-color: #97d87e;" class="d-flex bd-highlight">
+    <div style="font-family: Gabriola;font-size: 25px;margin-left: 20px;color:azure"  class="p-2 flex-grow-1 bd-highlight"><b>+216 58 15 34 61     |     manel.garaya@gmail.com </b></div>
+    <div style="font-family: Gabriola;font-size: 25px;color:azure" class="p-2 bd-highlight"><img style="margin-right: 60px;" width="50" src="/images/camion.png"/><b>Livraisons gratuites dès 99 DT d'achat!! </b></div>
+    <div class="p-2 bd-highlight">    </div>
+  </div>
+<%-include('head2.ejs')%>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <%-include('logomini2.ejs')%>
+
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <%-include('nav.ejs')%>
+
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="/"><i class="fa fa-home"></i> Accueil</a>
+                        <span>Mon compte </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+    <%for(let i of error ){ %>
+        <div class="alert alert-danger">
+            <%=i%>
+        </div>
+        <%}%>
+    <!-- Checkout Section Begin -->
+    <section class="checkout spad">
+        
+        <div class="container">
+            <form action="/user/signin" method="post" class="checkout__form">
+                <div class="row">
+                    <div class="col-lg-2">
+</div>
+                    <div class="col-lg-8">
+                        <h2><b>Mon compte                        </b></h2>
+                        <br>
+                        <div class="row">
+            
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="checkout__form__input">
+                                    <p>Email <span>*</span></p>
+                                    <input type="text"  name="email">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                 <div class="checkout__form__input">
+                                        <p>Mot de passe <span>*</span></p>
+                                        <input type="password" name="password">
+                                    </div>
+                                </div>
+                                <input type="hidden" name="_csrf" value="<%=token%>"/>
+
+                                <button type="submit" class="site-btn">Connexion</button>
+                          
+                            </div>
+                        
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+        </section>
+   
+ 
+        <%-include('footer1.ejs')%>
+
+    </html>

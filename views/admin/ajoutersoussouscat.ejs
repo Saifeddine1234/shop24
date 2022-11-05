@@ -1,0 +1,102 @@
+<%-include('head.ejs')%>
+<h1>
+  Ajouter Sous sous-Catégorie
+</h1>
+<br>
+<body>
+<!--
+  <form>
+    Select your favorite fruit:
+    <select id="mySelect">
+      <option value="apple">Apple</option>
+      <option value="orange">Orange</option>
+      <option value="pineapple">Pineapple</option>
+      <option value="banana">Banana</option>
+    </select>
+  </form>
+  
+  <p>Click the button to return the value of the selected fruit.</p>
+  
+  <button type="button" onclick="myFunction()">Try it</button>
+  
+  
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("categorie").value;
+    document.getElementById("demo").innerHTML = x;
+    console.log(x)
+  }
+  </script>
+<script>
+function populate(s1,s2){
+	var s1 = document.getElementById(s1);
+	var s2 = document.getElementById(s2);
+	s2.innerHTML = "";
+	if(s1.value == "Chevy"){
+  
+		var optionArray = ["|","camaro|Camaro","corvette|Corvette","impala|Impala"];
+	} else if(s1.value == "Dodge"){
+		var optionArray = ["|","avenger|Avenger","challenger|Challenger","charger|Charger"];
+	} else if(s1.value == "Ford"){
+		var optionArray = ["|","mustang|Mustang","shelby|Shelby"];
+	}
+	for(var option in optionArray){
+		var pair = optionArray[option].split("|");
+		var newOption = document.createElement("option");
+		newOption.value = pair[0];
+		newOption.innerHTML = pair[1];
+		s2.options.add(newOption);
+	}
+}
+</script>
+<h2>Choose Your Car</h2>
+<hr />
+Choose Car Make:
+<select id="slct1" name="slct1" onchange="populate(this.id,'slct2')">
+  <option value=""></option>
+  <option value="Chevy">Chevy</option>
+  <option value="Dodge">Dodge</option>
+  <option value="Ford">Ford</option>
+</select>
+<hr />
+Choose Car Model:
+<select id="slct2" name="slct2"></select>
+<hr />
+-->
+  <form id="" class="" method="post" action="soussouscategorie" style="margin-top: 30px;">
+  <div class="form-group">
+    <label for="exampleFovrmControlSelect1"><b>Catégorie</b></label>
+    <select  type="submit" class="form-control"  name="categorie">
+      <option value="médicaments">médicaments</option>       
+      <option value="complements Alimentaire">complements Alimentaire</option>
+      <option value="corps">corps</option>
+      <option value="visage">visage</option>
+      <option value="capillaire">capillaire</option>
+      <option value="solaire">solaire</option>
+      <option value="bio et naturel">bio et naturel</option>
+      <option value="bébé">bébé</option>
+      <option value="hygiène">hygiène</option>
+      <option value="homme">homme</option>
+      <option value="accessoires">accessoires</option>
+      <option value="matériels médicaux">matériels médicaux</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFovrmControlSelect1"><b>Sous-Catégorie</b></label>
+    <select class="form-control"  name="souscategorie">
+      <% for(var i of souscat){%>
+      <option value="<%=i.souscategorie%>"><%=i.souscategorie%></option>     
+     <%}%>
+    </select>
+  </div>
+    <div class="form-group">
+      <label for="sousCategorier"><b>Sous sous-catégorie</b></label>
+      <input type="text" class="form-control" placeholder="Saisir  Sous sous-catégorie"  name="soussouscategorie"/>
+    </div>
+    <div class="text-center">
+      <button  class="btn btn-success">Ajouter</button>
+      <a href="admin" class="btn btn-danger">Retour</a>
+    </div>
+  </form>
+  </body>

@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "60be9929ec90da0d2c01ba72"
+  },
+  "nom": "chaaben",
+  "prenom": "saifeddine",
+  "adresse": "sousse",
+  "telephone": 28843031,
+  "email": "saifeddinechaaben@gmail.com",
+  "password": "$2b$10$nXZembvFpMhD7T6oJOufpe680y4tiACh3pFOvEty0cvSMuFFwjduy",
+  "__v": 0
+}]

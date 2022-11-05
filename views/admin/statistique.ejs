@@ -1,0 +1,41 @@
+<%-include('head.ejs')%>
+
+<body>
+    <div class="container">
+        <h1 class="text-center ">Statistiques</h1>
+        <br>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+
+                    <th scope="col" class="text-center ">chiffre d'affaire </th>
+                    <th scope="col" class="text-center ">Quantité vendu</th>
+                    <th scope="col" class="text-center ">nom des produits vendu </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center ">  <% var index = 0 %>
+                        <% for(var i of order){%>
+                            <% var index = index + i.TotalPrix%>
+        <%}%>     <h3><%=index%> DT </h3>
+    </td>
+                    <td class="text-center ">                        <% var index2 = 0 %> <% for(var i of order){%>
+                        <% var index2 = index2 + i.Quantite%>
+               <%}%>
+               <h3><%=index2%> </h3>
+                    </td>
+                    <td class="text-center "><% for(var i of order){%>
+                        <% for(var x of i.cart.Produits){%>
+                            <%=x.nom%><br>
+                        <%}%>
+                    <%}%></td>
+                  
+                      </table>
+              
+    
+</div>
+<div class="text-center "> <a href="/a/admin"><button class="btn btn-secondary">Retour</button></a></div></div>
+
+</body>

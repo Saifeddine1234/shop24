@@ -1,0 +1,433 @@
+[{
+  "_id": {
+    "$oid": "60be467cec90da0d2c01ba28"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "soussouscategorie": "paracétamol",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4683ec90da0d2c01ba29"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "soussouscategorie": "Ibuprofène et Aspirine",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be469aec90da0d2c01ba2a"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "soussouscategorie": "etat grippal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be469fec90da0d2c01ba2b"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "soussouscategorie": "nez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be46acec90da0d2c01ba2c"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be46e2ec90da0d2c01ba2d"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "digestion",
+  "soussouscategorie": "constipation et hémorroïdes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be46eaec90da0d2c01ba2e"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "digestion",
+  "soussouscategorie": "diarrhée et nausées ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be46f7ec90da0d2c01ba2f"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "digestion",
+  "soussouscategorie": "digestion difficile ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4703ec90da0d2c01ba30"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "digestion",
+  "soussouscategorie": "maux d'estomac ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4980ec90da0d2c01ba31"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "bucco-dentaire",
+  "soussouscategorie": "aphte et douleurs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be498eec90da0d2c01ba32"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "energie",
+  "soussouscategorie": "vitamines et minéreaux",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4997ec90da0d2c01ba33"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "energie",
+  "soussouscategorie": "magnésium",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be49a7ec90da0d2c01ba34"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "energie",
+  "soussouscategorie": "défenses immunitaires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be49b5ec90da0d2c01ba35"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "sommeil et stress",
+  "soussouscategorie": "sommeil",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be49bbec90da0d2c01ba36"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "sommeil et stress",
+  "soussouscategorie": "stress",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be49c9ec90da0d2c01ba37"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "sommeil et stress",
+  "soussouscategorie": "anti-ronflement",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be49fcec90da0d2c01ba38"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins hydratants et nourissants",
+  "soussouscategorie": "peaux normales à mixtes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4a06ec90da0d2c01ba39"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins hydratants et nourissants",
+  "soussouscategorie": "peaux grasses ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4a0bec90da0d2c01ba3a"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins hydratants et nourissants",
+  "soussouscategorie": "peaux sèches ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4a1cec90da0d2c01ba3b"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins peau grasse , mixte et acné",
+  "soussouscategorie": "nettoyage",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4b28ec90da0d2c01ba3c"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins peau grasse , mixte et acné",
+  "soussouscategorie": "purifiants ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4b4aec90da0d2c01ba3d"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins anti-age et anti-rides",
+  "soussouscategorie": "sérum anti-âge ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4b54ec90da0d2c01ba3e"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins anti-age et anti-rides",
+  "soussouscategorie": "soin liftant ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4b60ec90da0d2c01ba3f"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins anti-age et anti-rides",
+  "soussouscategorie": "premières rides ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4b6aec90da0d2c01ba40"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins anti-age et anti-rides",
+  "soussouscategorie": "rides installées",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4b7cec90da0d2c01ba41"
+  },
+  "categorie": "visage",
+  "souscategorie": "yeux et levres",
+  "soussouscategorie": "contour des yeux ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4b85ec90da0d2c01ba42"
+  },
+  "categorie": "visage",
+  "souscategorie": "yeux et levres",
+  "soussouscategorie": "stick baumes à lèvres",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4ba3ec90da0d2c01ba43"
+  },
+  "categorie": "corps",
+  "souscategorie": "hydratation et nutrition corps",
+  "soussouscategorie": "soin des mains et pieds ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4bc9ec90da0d2c01ba44"
+  },
+  "categorie": "corps",
+  "souscategorie": "hydratation et nutrition corps",
+  "soussouscategorie": "soin hydratation",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4bddec90da0d2c01ba45"
+  },
+  "categorie": "bébé",
+  "souscategorie": "toilettes et soins bébé",
+  "soussouscategorie": "hygiène et soin bébé ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4be8ec90da0d2c01ba46"
+  },
+  "categorie": "bébé",
+  "souscategorie": "toilettes et soins bébé",
+  "soussouscategorie": "croute de lait ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4c4aec90da0d2c01ba47"
+  },
+  "categorie": "bébé",
+  "souscategorie": "change bébé",
+  "soussouscategorie": "crème de change ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4c50ec90da0d2c01ba48"
+  },
+  "categorie": "bébé",
+  "souscategorie": "change bébé",
+  "soussouscategorie": "couche",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4c5cec90da0d2c01ba49"
+  },
+  "categorie": "bébé",
+  "souscategorie": "maman",
+  "soussouscategorie": "Allaitement ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4c66ec90da0d2c01ba4a"
+  },
+  "categorie": "bébé",
+  "souscategorie": "maman",
+  "soussouscategorie": "anti vergetures ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4c71ec90da0d2c01ba4b"
+  },
+  "categorie": "bébé",
+  "souscategorie": "accessoires",
+  "soussouscategorie": "accessoires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4c7eec90da0d2c01ba4c"
+  },
+  "categorie": "bébé",
+  "souscategorie": "trousseaux et coffret",
+  "soussouscategorie": "trousseaux et coffret",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4cbbec90da0d2c01ba4d"
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires",
+  "soussouscategorie": "crèmes solaires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4cc2ec90da0d2c01ba4e"
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires enfant",
+  "soussouscategorie": "crèmes solaires enfant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4cccec90da0d2c01ba4f"
+  },
+  "categorie": "solaire",
+  "souscategorie": "soins après soleil",
+  "soussouscategorie": "soins après soleil",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4cdbec90da0d2c01ba50"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène intime",
+  "soussouscategorie": "toilettes intime",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4ce3ec90da0d2c01ba51"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène intime",
+  "soussouscategorie": "lingettes  intimes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4cf1ec90da0d2c01ba52"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "déodorants ",
+  "soussouscategorie": "déodorants aissettes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4cf8ec90da0d2c01ba53"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "déodorants ",
+  "soussouscategorie": "déodorants pieds",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4d0aec90da0d2c01ba54"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "sexualité",
+  "soussouscategorie": "préservatif",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4d76ec90da0d2c01ba55"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "sexualité",
+  "soussouscategorie": "lubrifiant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4d83ec90da0d2c01ba56"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène des mains",
+  "soussouscategorie": "gels hydroalcooliques et antibactériens",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4d9fec90da0d2c01ba57"
+  },
+  "categorie": "homme",
+  "souscategorie": "soin visage homme",
+  "soussouscategorie": "nettoyant visage homme",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4da5ec90da0d2c01ba58"
+  },
+  "categorie": "homme",
+  "souscategorie": "soin visage homme",
+  "soussouscategorie": "anti-âge et antifatigue ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4db0ec90da0d2c01ba59"
+  },
+  "categorie": "homme",
+  "souscategorie": "soin visage homme",
+  "soussouscategorie": "soins hydratants homme",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4dd2ec90da0d2c01ba5a"
+  },
+  "categorie": "accessoires",
+  "souscategorie": "boucles d'oreilles",
+  "soussouscategorie": "boucles d'oreilles",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4de1ec90da0d2c01ba5b"
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "appareil de mesure",
+  "soussouscategorie": "appareil de mesure",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4dedec90da0d2c01ba5c"
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "orthopédie",
+  "soussouscategorie": "orthopédie",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4dfeec90da0d2c01ba5d"
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "mobilité ",
+  "soussouscategorie": "mobilité",
+  "__v": 0
+}]

@@ -1,0 +1,121 @@
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <%-include('logo.ejs')%>
+
+                <div class="col-xl">
+                    <nav style="margin-left:50px" class="header__menu">
+                        <ul>
+                            </li>
+                            <li class=""><a href="/médicaments"  ><b>Médicaments</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'médicaments'){ %>
+                               <li><a href="/médicaments/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                
+                            </li>
+                            <li><a href="/complements Alimentaire"><b>Complément alimentaire</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'complements Alimentaire'){ %>
+                               <li><a href="/complements Alimentaire/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                            </li>
+                            <li><a href="/corps"><b>corps</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'corps'){ %>
+                               <li><a href="/corps/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                            </li>
+                            <li><a href="/visage"><b>visage</b></a> <ul class="dropdown">
+                                <% for(let i of souscat ){ %>
+                                   <% if(i.categorie == 'visage'){ %>
+                           <li><a href="/visage/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                           <% } %>
+                           <% } %>
+
+                    </ul></li>
+                            <li><a href="/solaire"><b>solaire</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'solaire'){ %>
+                               <li><a href="/solaire/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                            </li>
+                            <li><a href="/bébé"><b>bébé</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'bébé'){ %>
+                               <li><a href="/bébé/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                            </li>
+                            <li><a href="/hygiène"><b>hygiène</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'hygiène'){ %>
+
+                               <li><a href="/hygiène/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                            </li>
+                            <li><a href="/homme"><b>Homme</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'homme'){ %>
+                               <li><a href="/homme/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul></li>
+                            <li><a href="/accessoires"><b>accessoires</b></a>
+
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'accessoires'){ %>
+                               <li><a href="/accessoires/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                            </li>
+                            <li><a href="/matériels médicaux"><b>matériels médicaux</b></a>
+                                <ul class="dropdown">
+                                    <% for(let i of souscat ){ %>
+                                       <% if(i.categorie == 'matériels médicaux'){ %>
+                               <li><a href="/matériels médicaux/<%=i.souscategorie%>"><%=i.souscategorie%></a></li>
+                               <% } %>
+                               <% } %>
+    
+                        </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <br>
+            <div class="canvas__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+       
+    </header>

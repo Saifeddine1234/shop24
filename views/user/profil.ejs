@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<div style="background-color: #97d87e;" class="d-flex bd-highlight">
+    <div style="font-family: Gabriola;font-size: 25px;margin-left: 20px;color:azure"  class="p-2 flex-grow-1 bd-highlight"><b>+216 58 15 34 61     |     manel.garaya@gmail.com </b></div>
+    <div style="font-family: Gabriola;font-size: 25px;color:azure" class="p-2 bd-highlight"><img style="margin-right: 60px;" width="50" src="/images/camion.png"/><b>Livraisons gratuites dès 99 DT d'achat!! </b></div>
+    <div class="p-2 bd-highlight">    </div>
+  </div>
+<%-include('head2.ejs')%>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <%-include('logomini2.ejs')%>
+
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <%-include('nav.ejs')%>
+
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="/"><i class="fa fa-home"></i> Accueil</a>
+                        <span>Profil</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Breadcrumb End -->
+  
+
+    <!-- Checkout Section Begin -->
+    <section class="checkout spad">
+         <div class="container">      
+          <h3 style="color:#97d87e ;"><b><%=user.prenom%> <%=user.nom%></b></h3>
+      
+            <br>
+            <br>
+            <br>
+        <div class="row">
+          <div class="col-sm-2">
+         
+          </div>
+          <div class="col-sm-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                  aria-selected="true">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                  aria-selected="false">Commandes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                  aria-selected="false">Modifier</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container">
+                  <div class="row" id="rowhome">
+                    <div class="col-6 col-sm-3">
+                      <p class="font-weight-bold">Nom</p>
+                    </div>
+        
+                    <%if(user.nom){%>
+                      <div class="col-6 col-sm-6">
+                      <p class="font-weight-normal"><%=user.prenom%> <%=user.nom%></p>
+                    </div>
+                    <%}else{%>
+                    <div class="col-6 col-sm-6">
+                      <p class="font-weight-normal">saisir votre nom</p>
+                    </div>
+                    <%}%>
+        
+        
+                    <div class="w-100"></div>
+        
+                    <div class="col-6 col-sm-3">
+                      <p class="font-weight-bold">Email</p>
+                    </div>
+                    <div class="col-6 col-sm-6">
+                      <p class="font-weight-normal"><%=user.email%></p>
+                    </div>
+        
+                    <div class="w-100"></div>
+        
+                    <div class="col-6 col-sm-3">
+                      <p class="font-weight-bold">Numéro</p>
+                    </div>
+                  <%if(user.telephone){%>
+                    <div class="col-6 col-sm-6">
+                      <p class="font-weight-normal"><%=user.telephone%></p>
+                    </div>
+                    <%}else{%>
+                      <div class="col-6 col-sm-6">
+                        <p class="font-weight-normal">saisir votre numéro</p>
+                      </div>
+                      <%}%>
+          
+        
+                    <div class="w-100"></div>
+        
+                    <div class="col-6 col-sm-3">
+                      <p class="font-weight-bold">Adresse</p>
+                    </div>
+                    <%if(user.adresse){%>
+                    <div class="col-6 col-sm-6">
+                      <p class="font-weight-normal"><%=user.adresse%></p>
+                    </div>
+                    <%}else{%>
+                      <div class="col-6 col-sm-6">
+                        <p class="font-weight-normal">saisir votre Adresse</p>
+                      </div>
+                      <%}%>
+          
+                    <div class="w-100"></div>
+        
+                    <div class="col-6 col-sm-3">
+                      <p class="font-weight-bold">Mot de passe</p>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <p class="font-weight-normal">********</p>
+                    </div>
+                  </div>
+        
+        
+        
+        
+                 
+                </div>
+        
+        
+        
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div style="padding-top: 30px">
+                  <% var index = 1 %>
+                  <% for(var i of order){%>
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr class="table-active text-cenetr">
+        
+                        <td colspan="4" style="font-weight: bold" class="text-center "> Commande numero <%=index++%></td>
+                      </tr>
+                      <tr>
+                        <th scope="col" class="text-center ">#</th>
+                        <th scope="col" class="text-center ">Nom Produits</th>
+                        <th scope="col" class="text-center ">Prix Produits</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+        <%var indexProduct = 1 %>
+        <% for(var x of i.cart.Produits){%>
+          <tr>
+                        <th scope="row" class="text-center "><%=indexProduct++%></th>
+                        <td class="text-center "><%=x.nom%></td>
+                        <td class="text-center "><%=x.prix%> DT</td>
+                       
+                      </tr>
+                     
+        
+                      <%}%>
+                      <td> <%=i.cart.createAt%></td>
+                      <tr style="background-color:#97d87e;" class="table">
+                        <td colspan="3" style="font-weight: bold">Prix Total</td>
+                        <td width="100" style="font-weight: bold;" class="text-center "> <%=i.TotalPrix%> DT</td>
+                      </tr>
+                    </tbody>
+                  </table>
+        
+        <%}%>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                 <form id="" class="" method="post" action="updateuser" style="margin-top: 30px;">
+                <%for(var errorr of error){%>
+                <div class="alert alert-danger">
+                  <p><%=errorr%></p>
+                </div>
+        
+                <%}%>
+                <div class="form-group">
+                  <label for="UserName">Nom</label>
+                  <input type="text" class="form-control" placeholder="saisir votre Nom" name="nom">
+                </div>
+                <div class="form-group">
+                  <label for="email">Prénom</label>
+                  <input type="text" class="form-control" placeholder="saisir votre Email" name="prenom">
+                </div>
+                <div class="form-group">
+                  <label for="Contact">Numéro</label>
+                  <input type="number" class="form-control" placeholder="saisir votre numero de telephone" name="telephone">
+                </div>
+                <div class="form-group">
+                  <label for="Adress">Adresse</label>
+                  <input type="text" class="form-control" placeholder="saisir votre Adresse" name="adresse">
+                </div>
+                <div class="form-group">
+                  <label for="password">Mot de passe</label>
+                  <input type="text" class="form-control" placeholder="saisir votre Mot de passe" name="password">
+                </div>
+                <div class="text-center">
+                  <input type="hidden" name="_csrf" value="<%=token%>">
+                  <button type="submit" class="btn btn-success">Modifier</button>
+                  <a href="/users/profil" class="btn btn-danger">Retour</a>
+                </div>
+              </form>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <script>
+        console.log(document.getElementById('hasMassagesError').value)
+        if (document.getElementById('hasMassagesError').value === "true") {
+          $('#rowhome').addClass('d-none');
+          $('#formupdate').removeClass('d-none')
+        }
+        document.getElementById('file').onchange = function () {
+          const reader = new FileReader();
+          reader.onload = function () {
+            document.getElementById('image').src = this.result;
+          }
+          reader.readAsDataURL(this.files[0]);
+          $('#file').addClass('d-none');
+          $('#actionbutton').removeClass();
+        }
+        document.getElementById('updatedata').onclick = function () {
+          $('#rowhome').addClass('d-none');
+          $('#formupdate').removeClass('d-none')
+        }
+      </script>
+        
+        </section>
+   
+ 
+        <%-include('footer1.ejs')%>
+
+    </html>
+
+
+
+ 

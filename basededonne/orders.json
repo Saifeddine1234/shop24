@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "60bfec55ec90da0d2c01ba73"
+  },
+  "user": {
+    "$oid": "60be9929ec90da0d2c01ba72"
+  },
+  "cart": {
+    "Produits": [
+      {
+        "ID": "60be51b0ec90da0d2c01ba5e",
+        "prix": "3.36",
+        "nom": "EFFERALGAN 1 g comprimés effervescents",
+        "urlimage": "efferalgan.jpg",
+        "quantitee": 1
+      },
+      {
+        "ID": "60be51f8ec90da0d2c01ba60",
+        "prix": "2.26",
+        "nom": "Adole  1000 mg Douleurs et Fièvre",
+        "urlimage": "adol.jpg",
+        "quantitee": 1
+      }
+    ],
+    "_id": "60be9929ec90da0d2c01ba72",
+    "Quantite": 2,
+    "TotalPrix": 5.619999999999999,
+    "createAt": {
+      "$date": "2021-06-08T21:58:00.669Z"
+    },
+    "__v": 0
+  },
+  "nom": "Bouslah",
+  "adresse": "cité 20 Mars N°64 Bouficha , Sousse",
+  "nomCart": "Mohamed Salah Bouthaina Bouslah",
+  "numCart": 47852369963258,
+  "annee": 22,
+  "mois": 12,
+  "cvc": 123,
+  "Quantite": 2,
+  "TotalPrix": 5.619999999999999,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bff2066583b83018b6ac79"
+  },
+  "user": {
+    "$oid": "60be9929ec90da0d2c01ba72"
+  },
+  "cart": {
+    "Produits": [
+      {
+        "ID": "60be51b0ec90da0d2c01ba5e",
+        "prix": "3.36",
+        "nom": "EFFERALGAN 1 g comprimés effervescents",
+        "urlimage": "efferalgan.jpg",
+        "quantitee": 1
+      }
+    ],
+    "_id": "60be9929ec90da0d2c01ba72",
+    "Quantite": 1,
+    "TotalPrix": 3.36,
+    "createAt": {
+      "$date": "2021-06-08T22:40:32.158Z"
+    },
+    "__v": 0
+  },
+  "nom": "Bouslah",
+  "adresse": "dfssdk",
+  "nomCart": "dfsmdfl",
+  "numCart": 12345678998765,
+  "annee": 22,
+  "mois": 12,
+  "cvc": 123,
+  "Quantite": 1,
+  "TotalPrix": 3.36,
+  "__v": 0
+}]

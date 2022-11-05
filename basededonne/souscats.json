@@ -1,0 +1,197 @@
+[{
+  "_id": {
+    "$oid": "60be4175ec90da0d2c01ba08"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be417bec90da0d2c01ba09"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4181ec90da0d2c01ba0a"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "digestion",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4187ec90da0d2c01ba0b"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "bucco-dentaire",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be419eec90da0d2c01ba0c"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "energie",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be41a6ec90da0d2c01ba0d"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "sommeil et stress",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4511ec90da0d2c01ba12"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins hydratants et nourissants",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be451aec90da0d2c01ba13"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins anti-age et anti-rides",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4523ec90da0d2c01ba14"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins peau grasse , mixte et acné",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4528ec90da0d2c01ba15"
+  },
+  "categorie": "visage",
+  "souscategorie": "yeux et levres",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4536ec90da0d2c01ba16"
+  },
+  "categorie": "corps",
+  "souscategorie": "hydratation et nutrition corps",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4542ec90da0d2c01ba17"
+  },
+  "categorie": "bébé",
+  "souscategorie": "toilettes et soins bébé",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be454aec90da0d2c01ba18"
+  },
+  "categorie": "bébé",
+  "souscategorie": "change bébé",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4558ec90da0d2c01ba19"
+  },
+  "categorie": "bébé",
+  "souscategorie": "maman",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4562ec90da0d2c01ba1a"
+  },
+  "categorie": "bébé",
+  "souscategorie": "accessoires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4569ec90da0d2c01ba1b"
+  },
+  "categorie": "bébé",
+  "souscategorie": "trousseaux et coffret",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be457aec90da0d2c01ba1c"
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be457fec90da0d2c01ba1d"
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires enfant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4589ec90da0d2c01ba1e"
+  },
+  "categorie": "solaire",
+  "souscategorie": "soins après soleil",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be459bec90da0d2c01ba1f"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène intime",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be45acec90da0d2c01ba20"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "déodorants ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be45b3ec90da0d2c01ba21"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "sexualité",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be45bdec90da0d2c01ba22"
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène des mains",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be45cbec90da0d2c01ba23"
+  },
+  "categorie": "homme",
+  "souscategorie": "soin visage homme",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be464eec90da0d2c01ba24"
+  },
+  "categorie": "accessoires",
+  "souscategorie": "boucles d'oreilles",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be465dec90da0d2c01ba25"
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "appareil de mesure",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be4665ec90da0d2c01ba26"
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "orthopédie",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be466bec90da0d2c01ba27"
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "mobilité ",
+  "__v": 0
+}]

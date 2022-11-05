@@ -1,0 +1,925 @@
+[{
+  "_id": {
+    "$oid": "60be51b0ec90da0d2c01ba5e"
+  },
+  "prix": 3.36,
+  "nom": "EFFERALGAN 1 g comprimés effervescents",
+  "urlimage": "efferalgan.jpg",
+  "information": {
+    "desc": "est un antalgique et un antipyrétique Il est indiqué en cas de douleur et/ou fièvre telles que maux de tête, états grippaux, douleurs dentaires, courbatures, règles douloureuses. Cette présentation est réservée à l'adulte et à l'enfant de plus de 27 kg."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "Soussouscategorie": "paracétamol",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be51e2ec90da0d2c01ba5f"
+  },
+  "prix": 4.1,
+  "nom": "Doliprane 500 mg Douleurs et Fièvre",
+  "urlimage": "doliprane.jpg",
+  "information": {
+    "desc": "est un antalgique et un antipyrétique Il est indiqué en cas de douleur et/ou fièvre telles que maux de tête, états grippaux, douleurs dentaires, courbatures, règles douloureuses. Cette présentation est réservée à l'adulte et à l'enfant de plus de 27 kg."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "Soussouscategorie": "paracétamol",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be51f8ec90da0d2c01ba60"
+  },
+  "prix": 2.26,
+  "nom": "Adole  1000 mg Douleurs et Fièvre",
+  "urlimage": "adol.jpg",
+  "information": {
+    "desc": "est un antalgique et un antipyrétique Il est indiqué en cas de douleur et/ou fièvre telles que maux de tête, états grippaux, douleurs dentaires, courbatures, règles douloureuses. Cette présentation est réservée à l'adulte et à l'enfant de plus de 27 kg."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "Soussouscategorie": "paracétamol",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be5211ec90da0d2c01ba61"
+  },
+  "prix": 3.27,
+  "nom": "PANADOL 500MG Douleurs et Fièvre",
+  "urlimage": "panadol.jpg",
+  "information": {
+    "desc": "est un antalgique et un antipyrétique Il est indiqué en cas de douleur et/ou fièvre telles que maux de tête, états grippaux, douleurs dentaires, courbatures, règles douloureuses. Cette présentation est réservée à l'adulte et à l'enfant de plus de 27 kg."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "Soussouscategorie": "paracétamol",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be5244ec90da0d2c01ba62"
+  },
+  "prix": 2.51,
+  "nom": "NOVAFEN 400mg Comp.Pell. Bt 20",
+  "urlimage": "novafen.jpg",
+  "information": {
+    "desc": "Traitement symptomatique des affections douloureuses d'intensité légère à modérée et/ou des états fébriles. Il est indiqué, chez l'adulte et l'enfant de plus de 40 Kg (soit environ 12 ans), dans le traitement de courte durée de la fièvre et/ou des douleurs telles que maux de tête, états grippaux, douleurs dentaires, courbatures et règles douloureuses."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "Soussouscategorie": "Ibuprofène et Aspirine",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be5267ec90da0d2c01ba63"
+  },
+  "prix": 3.705,
+  "nom": "GRIPEX Adult Pdre/Sol.or. Bt 8 sachets",
+  "urlimage": "gripex.jpg",
+  "information": {
+    "desc": "Traitement symptomatique des affections ORL aiguës : rhumes, rhinites allergiques, rhinopharyngites et des états grippaux. En cas d’affection bactérienne, une antibiothérapie peut être nécessaire."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "douleurs et fiévre",
+  "Soussouscategorie": "Ibuprofène et Aspirine",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be52a5ec90da0d2c01ba64"
+  },
+  "prix": 5.39,
+  "nom": "Fervex Adulte Etat Grippal Granulés 8 Sachets",
+  "urlimage": "fervex.jpg",
+  "information": {
+    "desc": "Traitement symptomatique des affections ORL aiguës : rhumes, rhinites allergiques, rhinopharyngites et des états grippaux. En cas d’affection bactérienne, une antibiothérapie peut être nécessaire."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "etat grippal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be52cfec90da0d2c01ba65"
+  },
+  "prix": 3.33,
+  "nom": "ACTIFED Etats grippaux boîte",
+  "urlimage": "actifed.png",
+  "information": {
+    "desc": "Traitement symptomatique de la congestion et de l'hypersécrétion nasales au cours des affections rhinopharyngées aiguës avec maux de tête et/ou fièvre. Traitement symptomatique des états grippaux."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "nez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be533fec90da0d2c01ba66"
+  },
+  "prix": 2.9,
+  "nom": "TOPLEXIL sirop flacon 0.33ml",
+  "urlimage": "toplexil.jpg",
+  "information": {
+    "desc": "TOPLEXIL 0,33 mg/ml sirop est un antitussif appartenant à la famille des antihistaminiques de type neuroleptique phénothiazinique. Il s'oppose aux effets de l'histamine notamment sur les bronches. Il est préconisé pour calmer les toux sèches et les toux d’irritation chez l’adulte et l’enfant de plus de 2 ans, en particulier lorsqu’elles surviennent le soir ou pendant la nuit."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be5373ec90da0d2c01ba67"
+  },
+  "prix": 4.95,
+  "nom": "Bronchokod Sirop Adulte  250 ml",
+  "urlimage": "bronchokod.jpg",
+  "information": {
+    "desc": "Ce médicament est réservé à l’adulte et l’adolescent de plus de 15 ans.\r\nIl est utilisé en cas de toux grasse récente avec difficulté à expectorer\r\n"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be53dbec90da0d2c01ba68"
+  },
+  "prix": 6.96,
+  "nom": "Drill miel rosat pastille à sucer - boîte de 24 pastilles",
+  "urlimage": "drillmiel.jpg",
+  "information": {
+    "desc": "Ce médicament est préconisé en cas de mal de gorge peu intense et sans fièvre, d’aphtes et de petites plaies de la bouche il est destiné aux adultes et aux enfants de plus de 6 ans."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be53edec90da0d2c01ba69"
+  },
+  "prix": 6.96,
+  "nom": "Drill citron menthe pastille à sucer - boîte de 24 pastilles",
+  "urlimage": "drilljaune.jpg",
+  "information": {
+    "desc": "Ce médicament est préconisé en cas de mal de gorge peu intense et sans fièvre, d’aphtes et de petites plaies de la bouche il est destiné aux adultes et aux enfants de plus de 6 ans."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be53fcec90da0d2c01ba6a"
+  },
+  "prix": 6.96,
+  "nom": "Drill sans sucre pastille à sucer - boîte de 24 pastilles",
+  "urlimage": "drillbleu.jpg",
+  "information": {
+    "desc": "Ce médicament est préconisé en cas de mal de gorge peu intense et sans fièvre, d’aphtes et de petites plaies de la bouche il est destiné aux adultes et aux enfants de plus de 6 ans."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be541fec90da0d2c01ba6b"
+  },
+  "prix": 6.96,
+  "nom": "Drill rouge  pastille à sucer - boîte de 24 pastilles",
+  "urlimage": "drillrouge.png",
+  "information": {
+    "desc": "Ce médicament est préconisé en cas de mal de gorge peu intense et sans fièvre, d’aphtes et de petites plaies de la bouche il est destiné aux adultes et aux enfants de plus de 6 ans."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be5465ec90da0d2c01ba6c"
+  },
+  "prix": 7.5,
+  "nom": "TRIPLEX MAUX DE GORGE JOUR/NUIT 16 COMPRIMÉS",
+  "urlimage": "triplex.png",
+  "information": {
+    "desc": "Ce médicament est préconisé en cas de mal de gorge Il réduit l'inflammation, calme la douleur et l'irritation et réduit le risque d'infection"
+  },
+  "categorie": "médicaments",
+  "souscategorie": "rhuma et etat grippal",
+  "Soussouscategorie": "toux et gorge",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be54a7ec90da0d2c01ba6d"
+  },
+  "prix": 8.36,
+  "nom": "OSMOLAX 10gr Pdre.Sol.Or. Bt 20 Sachet",
+  "urlimage": "osmolax.png",
+  "information": {
+    "desc": "Traitement symptomatique de la constipation chez l'adulte et chez l'enfant à partir de 8 ans. Une cause organique devra être écartée avant d'initier le traitement. Le traitement de la constipation chez l'enfant doit cependant rester temporaire et sera d'une durée n'excédant pas trois mois, en association avec les mesures hygiéno-diététiques afin d'amorcer la régulation du transit. Une persistance des troubles sur une durée supérieure à 3 mois devra faire rechercher et traiter une pathologie sous-jacente."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "digestion",
+  "Soussouscategorie": "constipation et hémorroïdes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be54c4ec90da0d2c01ba6e"
+  },
+  "prix": 6.7,
+  "nom": "GAVISCON suspension 24 sachets",
+  "urlimage": "gaviscon.jpg",
+  "information": {
+    "desc": ": Ce médicament est indiqué dans le traitement du reflux gastro-œsophagien, qui se traduit par des brûlures d'estomac (pyrosis), des remontées ou renvois acides et des aigreurs d'estomac."
+  },
+  "categorie": "médicaments",
+  "souscategorie": "digestion",
+  "Soussouscategorie": "digestion difficile ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be557dec90da0d2c01ba6f"
+  },
+  "prix": 31.2,
+  "nom": "AKTIV ZINC + HISTIDINE + VITAMINE C",
+  "urlimage": "aktiv.jpg",
+  "information": {
+    "desc": "•\tTraiter certains problèmes de la peau comme l'acné\r\n•\tRalentir le vieillissement de la peau\r\n•\tFavoriser la bonne santé des cheveux\r\n•\tRenforcer le système immunitaire"
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "energie",
+  "Soussouscategorie": "vitamines et minéreaux",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be55daec90da0d2c01ba70"
+  },
+  "prix": 23.5,
+  "nom": "VITONIC TONUS, 30 gélules",
+  "urlimage": "vitonic.jpg",
+  "information": {
+    "desc": "Contribue au bien-être et à la vitalité, augmente le tonus physique et intellectuel, pallie les carences en vitamines, aide en période de surmenage, diminue le stress et améliore la qualité du sommeil, états fébriles, renforce les défenses naturelles et "
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "sommeil et stress",
+  "Soussouscategorie": "sommeil",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60be97bbec90da0d2c01ba71"
+  },
+  "prix": 71,
+  "nom": "VITONIC Fertilité Homme, 120 gélules",
+  "urlimage": "vitonic2.jpg",
+  "information": {
+    "desc": "Contribue au bien-être et à la vitalité, augmente le tonus physique et intellectuel, pallie les carences en vitamines, aide en période de surmenage, diminue le stress et améliore la qualité du sommeil, états fébriles, renforce les défenses naturelles et "
+  },
+  "categorie": "complements Alimentaire",
+  "souscategorie": "sommeil et stress",
+  "Soussouscategorie": "sommeil",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c234257964563a48fb7815"
+  },
+  "prix": 130,
+  "nom": "FILORGA - HYDRA FILLER - \"HYDRATANT SURACTIVÉ PRO JEUNESSE 50ML\"",
+  "urlimage": "filorga.jpg",
+  "information": {
+    "desc": "    TOUTE LA PUISSANCE DE L’ACIDE HYALURONIQUE PUR DANS UN SOIN ULTRA HYDRATANT POUR RESSOURCER INTENSÉMENT LA PEAU Texture gel-baume, adaptée aux peaux normales à sèches"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins hydratants et nourissants",
+  "Soussouscategorie": "peaux normales à mixtes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2855048c0ff165cd998bf"
+  },
+  "prix": 41.5,
+  "nom": "Hydrance Légère Emulsion HYDRANCE LÉGÈRE EMULSION HYDRATANTE",
+  "urlimage": "avene1.jpg",
+  "information": {
+    "desc": "    Avène génère un effet adoucissant durable sur la peau. Elle constitue aussi un bon élément pour empêcher les imperfections de la peau dues à une sécrétion exagérée de sébum. Cette solution s’adapte aux personnes de peau sensible, normale et mixte."
+  },
+  "categorie": "visage",
+  "souscategorie": "soins hydratants et nourissants",
+  "Soussouscategorie": "peaux normales à mixtes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2859148c0ff165cd998c0"
+  },
+  "prix": 36,
+  "nom": "HYDRANCE RICHE CRÈME HYDRATANTE",
+  "urlimage": "avene2.jpg",
+  "information": {
+    "desc": "Dès la première application, la crème Hydrance Optimale Riche d’Eau Thermale Avène procure à la peau une douceur telle que l’utilisateur se retrouve instantanément dans une sensation de confort. Elle génère également un effet apaisant sur l’épiderme réduisant ainsi les possibilités d’irritations et de démangeaisons cutanées. Efficace sur les peaux sensibles et sèches."
+  },
+  "categorie": "visage",
+  "souscategorie": "soins hydratants et nourissants",
+  "Soussouscategorie": "peaux normales à mixtes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c286a348c0ff165cd998c1"
+  },
+  "prix": 40,
+  "nom": "SVR SEBIACLEAR MICRO-PEEL 150ml",
+  "urlimage": "sebiaclear.jpg",
+  "information": {
+    "desc": "Cette eau micellaire vise à purifier, nettoyer  et démaquiller  en un seul geste, même le maquillage waterproof tout en éliminant les impuretés et l’excés de sébum sans dessécher votre peau."
+  },
+  "categorie": "visage",
+  "souscategorie": "soins peau grasse , mixte et acné",
+  "Soussouscategorie": "nettoyage",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2871648c0ff165cd998c2"
+  },
+  "prix": 58.45,
+  "nom": "Effaclar DUO (+) Unifiant",
+  "urlimage": "effaclar.jpg",
+  "information": {
+    "desc": "Soin correcteur et anti imperfections cutanées apaisante et lissante - Acide Linoléique - Niacinamide - Piroctone Olamine"
+  },
+  "categorie": "visage",
+  "souscategorie": "soins peau grasse , mixte et acné",
+  "Soussouscategorie": "purifiants ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2875048c0ff165cd998c3"
+  },
+  "prix": 113,
+  "nom": "SESDERMA  RetiAge",
+  "urlimage": "sesderma.jpg",
+  "information": {
+    "desc": "Pour prévenir et corriger les signes du vieillissement cutané causés principalement par le vieillissement chronologique : lignes d’expression, rides, perte d’élasticité, d’éclat et de tonus. Toutes les peaux. Traitement de base pour renforcer l’action de la crème."
+  },
+  "categorie": "visage",
+  "souscategorie": "soins anti-age et anti-rides",
+  "Soussouscategorie": "sérum anti-âge ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c287cb48c0ff165cd998c4"
+  },
+  "prix": 63,
+  "nom": "LIFTIANE Yeux + Lèvres",
+  "urlimage": "liftiane.jpg",
+  "information": {
+    "desc": "Cette crème comble de façon visible les rides et raffermit la peau."
+  },
+  "categorie": "visage",
+  "souscategorie": "yeux et levres",
+  "Soussouscategorie": "contour des yeux ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2881148c0ff165cd998c5"
+  },
+  "prix": 12.8,
+  "nom": "VITA CITRAL SOIN TR BAUME",
+  "urlimage": "vitacitral0.jpg",
+  "information": {
+    "desc": "Le Baume Lèvres Très Réparateur Vita Citral permet d'hydrater et de nourrir les lèvres abîmées. \r\nCe baume à lèvres permet aussi de diminuer les sensations de tiraillement. Sa formule réparatrice apaise également les lèvres et réduit les fissures dès 7 jours. \r\nLes lèvres sont protégées des agressions extérieures telles que le froid et le vent grâce à son film protecteur invisible.\r\n"
+  },
+  "categorie": "visage",
+  "souscategorie": "yeux et levres",
+  "Soussouscategorie": "stick baumes à lèvres",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2885748c0ff165cd998c6"
+  },
+  "prix": 11,
+  "nom": "VITA CITRAL",
+  "urlimage": "vitacitral.jpg",
+  "information": {
+    "desc": "Réparer, apaiser et réduire les callosités des mains abîmées et gercées."
+  },
+  "categorie": "corps",
+  "souscategorie": "hydratation et nutrition corps",
+  "Soussouscategorie": "soin des mains et pieds ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2891048c0ff165cd998c7"
+  },
+  "prix": 19.8,
+  "nom": "PHYSIOMER Unidoses lave",
+  "urlimage": "physiomer0.jpg",
+  "information": {
+    "desc": "lave, hydrate et désencombre les fosses nasales."
+  },
+  "categorie": "bébé",
+  "souscategorie": "toilettes et soins bébé",
+  "Soussouscategorie": "hygiène et soin bébé ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2893648c0ff165cd998c8"
+  },
+  "prix": 9.3,
+  "nom": "Physiomer bébé",
+  "urlimage": "physiomer.jpg",
+  "information": {
+    "desc": "PHYSIOMER Unidoses lave, hydrate et désencombre les fosses nasales."
+  },
+  "categorie": "bébé",
+  "souscategorie": "toilettes et soins bébé",
+  "Soussouscategorie": "hygiène et soin bébé ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c2898448c0ff165cd998c9"
+  },
+  "prix": 40.9,
+  "nom": "Mustela Bébé Liniment 400ml",
+  "urlimage": "mustela.jpg",
+  "information": {
+    "desc": "Pour un nettoyage en douceur de la peau et du visage du bébé nettoie délicatement la peau fine et sensible des nourrissons, Mustela a mis au point une eau nettoyante sans rinçage, pour un nettoyage tout en délicatesse, propre et efficace."
+  },
+  "categorie": "bébé",
+  "souscategorie": "toilettes et soins bébé",
+  "Soussouscategorie": "hygiène et soin bébé ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c289bb48c0ff165cd998ca"
+  },
+  "prix": 7,
+  "nom": "couche Molfix",
+  "urlimage": "molfix.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "bébé",
+  "souscategorie": "change bébé",
+  "Soussouscategorie": "couche",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c289ed48c0ff165cd998cb"
+  },
+  "prix": 19,
+  "nom": "couche pameras bébé",
+  "urlimage": "pampers.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "bébé",
+  "souscategorie": "change bébé",
+  "Soussouscategorie": "couche",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c289fb48c0ff165cd998cc"
+  },
+  "prix": 3,
+  "nom": "couche lila",
+  "urlimage": "lila.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "bébé",
+  "souscategorie": "change bébé",
+  "Soussouscategorie": "couche",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28b5048c0ff165cd998cd"
+  },
+  "prix": 34,
+  "nom": "AKTIV MATERNAVIT 30 GELULES DOPPELHERZ",
+  "urlimage": "maternavit.jpg",
+  "information": {
+    "desc": "Les recherches scientifiques récentes montrent que l’apport de certaines vitamines et certains minéraux dans les deux mois qui précèdent la conception agit positivement sur la santé du bébé. Ainsi la prise de calcium, de magnésium, de zinc et de vitamines B, en particulier l’acide folique, est recommandée."
+  },
+  "categorie": "bébé",
+  "souscategorie": "maman",
+  "Soussouscategorie": "Allaitement ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28b8848c0ff165cd998ce"
+  },
+  "prix": 35.7,
+  "nom": "mustela bio",
+  "urlimage": "mustelabio.jpg",
+  "information": {
+    "desc": "il hydrate durablement et apaise les sensations de démangeaisons."
+  },
+  "categorie": "bébé",
+  "souscategorie": "maman",
+  "Soussouscategorie": "Allaitement ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28bbd48c0ff165cd998cf"
+  },
+  "prix": 17,
+  "nom": "CYTOLNAT CYTOLSTRIE ANTI VERGETURE",
+  "urlimage": "cytolstrie.jpg",
+  "information": {
+    "desc": "CytolStrie est un soin dermatologique concentré en huiles végétales et en extrait de plantes médicinales pour la prévention et la correction des vergetures"
+  },
+  "categorie": "bébé",
+  "souscategorie": "maman",
+  "Soussouscategorie": "anti vergetures ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28c2348c0ff165cd998d0"
+  },
+  "prix": 9.5,
+  "nom": "Mouche bébé Chicco physioclean",
+  "urlimage": "chicco.jpg",
+  "information": {
+    "desc": "Mouche bébé Chicco physioclean Idéal pour éliminer simplement et en douceur les excès de secrétions nasales. Forme ergonomique qui facilite son utilisation. Embout souple avec fente anti-occlusion, tout particulièrement adapté au nez sensibles des bébés. Embouts souples jetables. Avec filtres pré-insérés pour une hygiène optimale."
+  },
+  "categorie": "bébé",
+  "souscategorie": "accessoires",
+  "Soussouscategorie": "accessoires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28c8548c0ff165cd998d1"
+  },
+  "prix": 19,
+  "nom": "biberon",
+  "urlimage": "bibron.jfif",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "bébé",
+  "souscategorie": "accessoires",
+  "Soussouscategorie": "accessoires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28ca448c0ff165cd998d2"
+  },
+  "prix": 23.5,
+  "nom": "éponge pour bébé",
+  "urlimage": "chiccobebe.jpg",
+  "information": {
+    "desc": "éponge pour bébé"
+  },
+  "categorie": "bébé",
+  "souscategorie": "accessoires",
+  "Soussouscategorie": "accessoires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28cdf48c0ff165cd998d3"
+  },
+  "prix": 66.5,
+  "nom": "trousseau",
+  "urlimage": "trousseau.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "bébé",
+  "souscategorie": "trousseaux et coffret",
+  "Soussouscategorie": "trousseaux et coffret",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28d1e48c0ff165cd998d4"
+  },
+  "prix": 125,
+  "nom": "sac bébé",
+  "urlimage": "sacbebe.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "bébé",
+  "souscategorie": "trousseaux et coffret",
+  "Soussouscategorie": "trousseaux et coffret",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28da048c0ff165cd998d5"
+  },
+  "prix": 59,
+  "nom": "Crème solaire  100 ml",
+  "urlimage": "cremesolaire.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires",
+  "Soussouscategorie": "crèmes solaires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28dd148c0ff165cd998d6"
+  },
+  "prix": 71,
+  "nom": "DAYLONG EXTREME SPF50+ 50ML",
+  "urlimage": "daylong.jpg",
+  "information": {
+    "desc": "Un lait de protection solaire liposomal qui offre une très haute protection anti-UVA et anti-UVB aux peaux les plus sensibles au soleil.\r\n"
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires",
+  "Soussouscategorie": "crèmes solaires",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28e1448c0ff165cd998d7"
+  },
+  "prix": 64,
+  "nom": "AVENE CREME SOLAIRE ENFANT",
+  "urlimage": "avenebebe.jpg",
+  "information": {
+    "desc": "Un lait de protection solaire liposomal qui offre une très haute protection anti-UVA et anti-UVB aux peaux les plus sensibles au soleil.\r\n"
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires enfant",
+  "Soussouscategorie": "crèmes solaires enfant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28e3e48c0ff165cd998d8"
+  },
+  "prix": 57.9,
+  "nom": "NIVEA SUN KIDS",
+  "urlimage": "niveakids.jpg",
+  "information": {
+    "desc": "Un lait de protection solaire liposomal qui offre une très haute protection anti-UVA et anti-UVB aux peaux les plus sensibles au soleil.\r\n"
+  },
+  "categorie": "solaire",
+  "souscategorie": "crèmes solaires enfant",
+  "Soussouscategorie": "crèmes solaires enfant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28e8f48c0ff165cd998d9"
+  },
+  "prix": 18.5,
+  "nom": "NUXE SUN APRES",
+  "urlimage": "nuxe.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "solaire",
+  "souscategorie": "soins après soleil",
+  "Soussouscategorie": "soins après soleil",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28ee948c0ff165cd998db"
+  },
+  "prix": 3,
+  "nom": "lila ",
+  "urlimage": "lila.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène intime",
+  "Soussouscategorie": "toilettes intime",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28f0048c0ff165cd998dc"
+  },
+  "prix": 29,
+  "nom": "cavailles roge intime",
+  "urlimage": "cavailles.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène intime",
+  "Soussouscategorie": "toilettes intime",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28f4a48c0ff165cd998dd"
+  },
+  "prix": 7,
+  "nom": "lingette cavailles roge intime",
+  "urlimage": "lingette.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène intime",
+  "Soussouscategorie": "lingettes  intimes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c28f9348c0ff165cd998de"
+  },
+  "prix": 9.5,
+  "nom": "déodorant cavailles roge intime",
+  "urlimage": "deo-soin.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "déodorants ",
+  "Soussouscategorie": "déodorants aissettes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29b7c48c0ff165cd998df"
+  },
+  "prix": 10.5,
+  "nom": "déodorant akileine",
+  "urlimage": "piedsdeo.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "déodorants ",
+  "Soussouscategorie": "déodorants pieds",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29b8748c0ff165cd998e0"
+  },
+  "prix": 10.5,
+  "nom": "déodorant akileine vert",
+  "urlimage": "piedsdeo2.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "déodorants ",
+  "Soussouscategorie": "déodorants pieds",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29bae48c0ff165cd998e1"
+  },
+  "prix": 9,
+  "nom": "Préservatif durex 3 pièces",
+  "urlimage": "durex.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "sexualité",
+  "Soussouscategorie": "préservatif",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29bbe48c0ff165cd998e2"
+  },
+  "prix": 26,
+  "nom": "librifiant durex",
+  "urlimage": "durexl.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "sexualité",
+  "Soussouscategorie": "lubrifiant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29c1f48c0ff165cd998e3"
+  },
+  "prix": 5.5,
+  "nom": "BACTILIN’S Gel Desinfectant Anti Bacterien",
+  "urlimage": "bactilin.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène des mains",
+  "Soussouscategorie": "gels hydroalcooliques et antibactériens",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29c4948c0ff165cd998e4"
+  },
+  "prix": 5.5,
+  "nom": "BACLOL",
+  "urlimage": "baclol.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "hygiène",
+  "souscategorie": "hygiène des mains",
+  "Soussouscategorie": "gels hydroalcooliques et antibactériens",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29c7e48c0ff165cd998e5"
+  },
+  "prix": 45,
+  "nom": "CB3 defence",
+  "urlimage": "cb3.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "homme",
+  "souscategorie": "soin visage homme",
+  "Soussouscategorie": "nettoyant visage homme",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29ca148c0ff165cd998e6"
+  },
+  "prix": 102,
+  "nom": "HYDRACID C20",
+  "urlimage": "hydracid.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "homme",
+  "souscategorie": "soin visage homme",
+  "Soussouscategorie": "anti-âge et antifatigue ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29cc448c0ff165cd998e7"
+  },
+  "prix": 74.2,
+  "nom": "NUXE MEN",
+  "urlimage": "nuxemen.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "homme",
+  "souscategorie": "soin visage homme",
+  "Soussouscategorie": "soins hydratants homme",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29d2448c0ff165cd998e8"
+  },
+  "prix": 170,
+  "nom": "Oxymètre",
+  "urlimage": "beurer.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "appareil de mesure",
+  "Soussouscategorie": "appareil de mesure",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29d4748c0ff165cd998e9"
+  },
+  "prix": 114,
+  "nom": "Tension Mètre",
+  "urlimage": "tension.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "appareil de mesure",
+  "Soussouscategorie": "appareil de mesure",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29d6c48c0ff165cd998ea"
+  },
+  "prix": 40,
+  "nom": "Talonnette gel médicale",
+  "urlimage": "talonnette.jpg",
+  "information": {
+    "desc": "Talonnette gel médicale soulage les symptômes orthopédiques, réduisant la tension et le stress à chaque talon, réduisant la douleur au talon, tendinite d'Achille, épine calcanéenne, aidez-vous de passer la période contre la douleur de fasciite plantaire. La talonnette assure la stabilisation de talon. Elle aide à soigner L'épine calcanéen, Nécrose avasculaire, Ténosynovite d'Achille."
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "orthopédie",
+  "Soussouscategorie": "orthopédie",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29dbf48c0ff165cd998eb"
+  },
+  "prix": 46,
+  "nom": "CHEVILLER LIGAMENTAIRE ORTHO VITALE NOIR",
+  "urlimage": "cheviller.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "orthopédie",
+  "Soussouscategorie": "orthopédie",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c29de248c0ff165cd998ec"
+  },
+  "prix": 70.8,
+  "nom": "déambulateur pliant sans roues",
+  "urlimage": "deambulateur.jpg",
+  "information": {
+    "desc": ""
+  },
+  "categorie": "matériels médicaux",
+  "souscategorie": "mobilité ",
+  "Soussouscategorie": "mobilité",
+  "__v": 0
+}]

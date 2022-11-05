@@ -1,0 +1,30 @@
+<%-include('head.ejs')%>
+
+<body>
+    <div class="container">
+        <h1 class="text-center ">Sous categorie</h1>
+        <br>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center "></th>
+                    <th scope="col" class="text-center ">Catégorie</th>
+                    <th scope="col" class="text-center ">Sous categorie </th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <% var index = 1%>
+                <% for(var i of produit){%>
+                <tr>
+                    <td class="text-center "><%=index++%></td>
+                    <td class="text-center "><%=i.categorie%> </td>
+                    <td class="text-center "><%=i.souscategorie%></td>
+
+                      <td class="text-center "><a href="/admin/supprimersouscat/<%=i._id%>"><button class="btn btn-danger">Supprimer</button></a></td>
+  </tr>
+                <%}%>
+          </table>
+          <div class="text-center "><a href="/admin/souscategorie"><button class="btn btn-primary">Ajouter Produits</button></a>  <a href="/admin/admin"><button class="btn btn-secondary">Retour</button></a></div></div>
+</body>

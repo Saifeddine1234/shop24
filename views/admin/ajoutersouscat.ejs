@@ -1,0 +1,34 @@
+<%-include('head.ejs')%>
+<h1>
+  Ajouter Sous Catégorie
+</h1>
+<br>
+<body>
+  <form id="" class="" method="post" action="souscategorie" style="margin-top: 30px;">
+  <div class="form-group">
+    <label for="exampleFovrmControlSelect1"><b>Catégorie</b></label>
+    <select class="form-control" id="categorie" name="categorie">
+      <option value="médicaments">médicaments</option>       
+      <option value="complements Alimentaire">complements Alimentaire</option>
+      <option value="corps">corps</option>
+      <option value="visage">visage</option>
+      <option value="capillaire">capillaire</option>
+      <option value="solaire">solaire</option>
+      <option value="bio et naturel">bio et naturel</option>
+      <option value="bébé">bébé</option>
+      <option value="hygiène">hygiène</option>
+      <option value="homme">homme</option>
+      <option value="accessoires">accessoires</option>
+      <option value="matériels médicaux">matériels médicaux</option>
+    </select>
+  </div>
+    <div class="form-group">
+      <label for="sousCategorier"><b>Sous Catégorie</b></label>
+      <input type="text" class="form-control" placeholder="Saisir sous-catégorie"  name="souscategorie"/>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-success">Ajouter</button>
+      <a href="admin" class="btn btn-danger">Retour</a>
+    </div>
+  </form>
+  </body>

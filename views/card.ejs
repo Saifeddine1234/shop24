@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<%-include('head.ejs')%>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <%-include('logomini.ejs')%>
+
+    <!-- Offcanvas Menu End -->
+
+    <%-include('nav.ejs')%>
+
+
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="/"><i class="fa fa-home"></i> Accueil</a>
+                        <span>Panier</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+    <% if(cart){%>
+
+    <!-- Shop Cart Section Begin -->
+    <section class="shop-cart spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="shop__cart__table">
+                       
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Produit</th>
+                                    <th></th><th></th>
+                                    <th>Prix</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% let index = 0 %>
+                                <% for (let c of cart.Produits){ %>
+                                <tr>
+                                    <%index++%>
+                                    <td class="cart__product__item">
+                                        <img width="130" src="img/product/<%=c.urlimage%>" alt="">
+                                        <div class="cart__product__item__title">
+                                            <h6><%=c.nom%></h6>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__price">
+                                        
+                                    </td>
+                                    <td class="cart__quantity">
+                                       
+                                    </td>
+                                    <td class="cart__total"><%=c.prix%> DT</td>
+                                    <td class="cart__close"><a href="/delete/<%=index-1%>"><span class="icon_close"></span></a></td>
+                                </tr>
+                                <%}%>
+                            </tbody>
+                        </table>
+                    
+                    </div>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-2">
+                 
+                </div>
+                <div class="col-lg-8 ">
+                    <div class="cart__total__procced">
+                        <h6>Cart total</h6>
+                        <ul>     
+                            <li>Nombre des produits <span><%=QPr%> </span></li>
+                            <li>Total <span step="0.001"><%=cart.TotalPrix%> DT</span></li>
+                        </ul>
+                        <a href="/passer" style="width: 200px;" class="primary-btn">Passer Commande</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+    <%}else{%>
+        <h1 style="padding-top: 100px;height:600px;"> <center><%=message%></center></h1>
+    <%}%>
+    <!-- Shop Cart Section End -->
+
+    <!-- Instagram Begin -->
+    <div class="instagram">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                    <div class="instagram__item set-bg" data-setbg="img/instagram/insta-1.jpg">
+                        <div class="instagram__text">
+                            <i class="fa fa-instagram"></i>
+                            <a href="#">@ pharmaliv.tn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                    <div class="instagram__item set-bg" data-setbg="img/instagram/insta-2.jpg">
+                        <div class="instagram__text">
+                            <i class="fa fa-instagram"></i>
+                            <a href="#">@ pharmaliv.tn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                    <div class="instagram__item set-bg" data-setbg="img/instagram/insta-3.jpg">
+                        <div class="instagram__text">
+                            <i class="fa fa-instagram"></i>
+                            <a href="#">@ pharmaliv.tn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                    <div class="instagram__item set-bg" data-setbg="img/instagram/insta-4.jpg">
+                        <div class="instagram__text">
+                            <i class="fa fa-instagram"></i>
+                            <a href="#">@ pharmaliv.tn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                    <div class="instagram__item set-bg" data-setbg="img/instagram/insta-5.jpg">
+                        <div class="instagram__text">
+                            <i class="fa fa-instagram"></i>
+                            <a href="#">@ pharmaliv.tn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                    <div class="instagram__item set-bg" data-setbg="img/instagram/insta-6.jpg">
+                        <div class="instagram__text">
+                            <i class="fa fa-instagram"></i>
+                            <a href="#">@ pharmaliv.tn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Instagram End -->
+
+    <%-include('footer.ejs')%>
+
+</body>
+
+</html>
